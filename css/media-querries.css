@@ -83,21 +83,8 @@
           text-align: center;
       }
 
-      .delivered-meals{
-        justify-content: center;
-        margin-top: 3.2rem;
-      }
-
       .logos img{
         height: 2.4rem;
-      }
-
-      .step-number{
-        font-size: 7.4rem;
-      }
-
-      .meal-content{
-        padding: 2.4rem 3.2rem 3.2rem;
       }
 
       .section-testimonials{
@@ -106,14 +93,6 @@
 
       .gallery{
         grid-template-columns: repeat(6, 1fr);
-      }
-
-      .cta{
-        grid-template-columns: 3fr 2fr;
-      }
-
-      .cta-form{
-        grid-template-columns: 1fr;
       }
 
       .btn-form{
@@ -188,14 +167,6 @@
         margin-bottom: 4.8rem;
     }
 
-    .pricing-plan{
-        width: 100%;
-    }
-
-    .footer-grid{
-        grid-template-columns: repeat(6  1fr);
-    }
-
     .logo-col, .address-col{
         grid-column: span 3;
     }
@@ -259,18 +230,4 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
   }
-
-  .cta{
-    grid-template-columns: 1fr;
-  }
-
-  .cta-text-box{
-      padding: 3.2rem;
-  }
-  
-  .cta-img-box{
-      height: 36rem;
-      grid-row: 1;
-  }
-
 }
