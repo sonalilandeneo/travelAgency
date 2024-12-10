@@ -153,6 +153,7 @@ Medium: 11px
   --surface-border-color: #F7F7F7; /* strokecolor for boxed elements within sections */
   --icon-color: #080809; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   --border-color:#212832;
+  --subscribe-bg: #DFD7F9;
 }
 
 

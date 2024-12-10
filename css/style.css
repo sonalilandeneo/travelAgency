@@ -298,6 +298,7 @@ height: 3.25rem;}
   color: var(--subheading-color);
   margin-bottom: 2rem;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 
 .categoryWrap   { position: relative;}
@@ -388,7 +389,7 @@ width: 9.5625rem; height: 9.9375rem;}
     background-size: cover; z-index: -1;}
 
 .destiBOX       { 
-  background-color: var(--background-color);
+  background-color: var(--background-color); cursor: pointer;
 }
 .destiImg       { width: 100%; height: auto; 
   border-radius: 1.5rem 1.5rem 0 0;
@@ -401,6 +402,7 @@ overflow: hidden;}
   border-radius: 0 0 1.5rem 1.5rem;
 color: var(--default-color); font-weight: 500;}
 
+.destiBOX:hover .desti_Details { box-shadow: rgba(59, 73, 121, 0.2) 0px 1px 3px 0px;}
 
 .desti_Details h4  { 
   font-size: 1.125rem;
@@ -437,6 +439,54 @@ p.destinationText   {
 .orangeBG     { background-color: #F0BB1F;}
 .redBG        { background-color: #F15A2B;}
 .blueBG       { background-color:  #006380;}
+
+
+
+/*tripWrap*/
+.step-right  { position: relative;}
+.step-right:before   { background: url("../img/Ellipse\ 8.png") top right no-repeat; background-size: cover; position: absolute;
+top:-1rem; right: 1rem; width: 25.125rem; height: 22.9375rem; content: ''; z-index: -1;}
+.tripWrap    { margin-top:4.5rem; 
+  margin-right: 7.3125rem;
+  padding: 1.25rem 1.5625rem 1.875rem; 
+  background-color: var(--background-color); 
+  border-radius: 1.625rem;
+  box-shadow: rgba(59, 73, 121, 0.2) 0px 14px 20px -5px;}
+.tripWrap h4.subHead  { margin-bottom: 0.875rem; color: #080809;}
+.labelName            { color:#84829A; font-weight: 500; margin-bottom: 0.75rem;}
+.img-responsive       { width: 100%; height: auto;}
+.tripimg              { width: 100%; display: block; margin-bottom: 1.875rem; border-radius: 1.625rem; overflow: hidden;}
+.labelName span       {  display: inline-block; position: relative;margin-left: 1rem; }
+.labelName span:after { width: 1px;
+  height: 16px;
+  background-color: #84829A;
+  position: absolute;
+  left: -10px; 
+  content: '';
+  top: 0px;
+}
+
+.socialList { list-style: none; margin-bottom: 0.75rem;}
+.socialList li { display: inline-block; margin: 0.5625rem;}
+.socialList li a {
+  width: 2.25rem;
+  height: 2.25rem;
+  position: relative;
+  border-radius: 50%;
+  background:#f5f5f5;
+  align-items: center; border:#f5f5f5 1px solid;
+  justify-content: center;
+  display: flex;
+}
+.socialList li:first-child { margin-left: 0;}
+.socialList li:hover a,
+.socialList li:focus a   { background: var(--background-color); border-color: #4152CA;}
+
+.details_trip { font-size: 1rem; color:#84829A; font-weight: 500;}
+.details_trip img.goingIMG   { margin-right: 1rem; width: 1rem; height: 1rem;}
+
+.wishlist img    { float: right; position: relative; top:5px; overflow: hidden;}
+
 
   /* step section end here */
 
